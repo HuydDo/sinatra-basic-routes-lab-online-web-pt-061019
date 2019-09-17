@@ -6,7 +6,8 @@ class App < Sinatra::Base
   end
 
   get '/name' do
-    "My name is Huy Do"
+    # "My name is Huy Do"
+    erb :name
   end
 
   get '/hometown' do
