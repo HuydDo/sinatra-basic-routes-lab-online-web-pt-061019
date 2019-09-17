@@ -4,7 +4,7 @@ class App < Sinatra::Base
   get '/' do
     erb :index
   end
-  end
+
   get '/name' do
     "My name is Huy Do"
   end
